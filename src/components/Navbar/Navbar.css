@@ -1,0 +1,27 @@
+.ContainerLinksNavar {
+  display: none;
+}
+.btnMenuHamburguesa {
+  background-color: #5807d3;
+}
+a.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.css-fr48ab-MuiButtonBase-root-MuiButton-root{
+  background-color: #5807d3;
+}
+
+@media (min-width: 720px) {
+  .ContainerLinksNavar {
+    display: none;
+  }
+
+  button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeLarge.btnMenuHamburguesa.css-25hvi0-MuiButtonBase-root-MuiIconButton-root {
+    display: flex;
+  }
+}
+@media (min-width: 1020px) {
+  .ContainerLinksNavar {
+    display: flex;
+  }
+  button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeLarge.btnMenuHamburguesa.css-25hvi0-MuiButtonBase-root-MuiIconButton-root {
+    display: none;
+  }
+}

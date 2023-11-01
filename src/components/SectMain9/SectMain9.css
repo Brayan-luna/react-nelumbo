@@ -1,0 +1,63 @@
+.divCardsPruebasSectMain9{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.containerDivCardsPruebasSectMain9{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.imgConocimientoEsPoderSectMain5{
+    width: 300px;
+}
+.imgSabemosNecesitasLong{
+    display: none;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.btnSolicitaDemostracionSectMain9desktop.css-1j8dr7l-MuiButtonBase-root-MuiButton-root{
+    display: none;
+
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.btnSolicitaDemostracionSectMain9desktop.css-1j8dr7l-MuiButtonBase-root-MuiButton-root:hover{
+    background-color:#3A87D9 ;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.btnDescubreloSect7.css-1n0id7x-MuiButtonBase-root-MuiButton-root{
+    background-color: #3A87D9;
+}
+
+@media (min-width:720px) {
+    .imgConocimientoEsPoderSectMain5{
+        width: 400px;
+    }
+    button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.btnSolicitaDemostracionSectMain9Mobile.css-1j8dr7l-MuiButtonBase-root-MuiButton-root{
+        width: 300px;
+        margin-top: 20px;
+    }
+}
+@media (min-width:1366px) {
+    .imgSabemosNecesitas{
+        display: none;
+    }
+    .imgSabemosNecesitasLong{
+        display: flex;
+    }
+    button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.btnSolicitaDemostracionSectMain9desktop.css-1j8dr7l-MuiButtonBase-root-MuiButton-root{
+        display: flex;
+        width: 300px;
+        margin-top: 20px;
+    }
+    button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.btnSolicitaDemostracionSectMain9Mobile.css-1j8dr7l-MuiButtonBase-root-MuiButton-root{
+        display: none;
+    }
+    .containerDivCardsPruebasSectMain9{
+        margin-top: 30px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .divCardsPruebasSectMain9{
+        width: 20%;
+    }
+   
+    
+}

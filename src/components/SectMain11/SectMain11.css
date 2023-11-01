@@ -1,0 +1,15 @@
+.sectionMain11Container{
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F4F4;
+    padding-bottom: 20px;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.css-1q6829g-MuiButtonBase-root-MuiButton-root:hover{
+    background-color: #5807D3;
+}
+@media (min-width:1366px) {
+    .sectionMain11Container{
+        flex-direction: row;
+        align-items: center;
+    }
+}

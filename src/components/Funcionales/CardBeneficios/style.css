@@ -1,0 +1,82 @@
+.containerCardsBene {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 24%;
+  height: 116px;
+  margin-bottom: 32px;
+  border: 3px solid #935ee2;
+  border-radius: 17px;
+}
+.containerIcon {
+  width: 65px;
+  border-radius: 10px;
+  background-color: #0a36a1;
+  background-image: linear-gradient(
+    6deg,
+    #0a36a1 0%,
+    #b212e9 50%,
+    #1d64e7 100%
+  );
+}
+.Icon {
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+}
+.text {
+  font-size: 13px;
+  font-weight: bold;
+  color: #0000009c;
+}
+.nexText {
+  display: none;
+}
+
+@media (min-width: 720px) {
+  .containerIcon{
+    margin-right: 13px;
+    width:70px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .containerCardsBene{
+    width: 27%;
+  }
+  .text{
+    text-align: left;
+    color: #0000009c;
+  }
+ 
+  .Icon {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+  }
+}
+@media (min-width:1380px) {
+  .nexText {
+    display: block;
+    color: #5c5a5a;
+    text-align: left;
+  }
+  .containerCardsBene {
+    width: 27%;
+    flex-direction: row;
+    padding: 2px 10px 2px 20px;
+    
+  }
+  .containerIcon{
+    margin-right: 13px;
+    width:160px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+}

@@ -1,0 +1,30 @@
+.imgSolicDemoPhone {
+  width: 200px;
+}
+.containerSect1{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media (min-width: 720px) {
+    .MuiContainer-root.MuiContainer-maxWidthLg.containerSect1.css-1od9fc7-MuiContainer-root{
+        flex-direction: row;
+    }
+    .MuiContainer-root.MuiContainer-maxWidthLg.containerSect1.css-1xon2ic-MuiContainer-root{
+        flex-direction: row;
+    }
+    .divContainerSabesQGente p{
+        text-align:left;
+    }
+    .divContainerSabesQGente{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .btnSolicitarDemo{
+        align-self:flex-start;
+    }
+
+}   
+

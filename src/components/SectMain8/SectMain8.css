@@ -1,0 +1,53 @@
+.containerImgBtnSect8Two {
+  display: none;
+}
+.imgNoseMejoraSectMain8 {
+  width: 300px;
+}
+.btnDegradado {
+  border-radius: 10px;
+  background-color: #0a36a1;
+  background-image: linear-gradient(
+    19deg,
+    #0a36a1 0%,
+    #b212e9 50%,
+    #1d64e7 100%
+  );
+  border: none;
+  padding: 30px 50px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+.imgGrafica {
+  margin-bottom: 20px;
+  width: 300px;
+}
+.containerImgBtnSect8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.colorBlackSpanSect8 {
+  color: black;
+}
+.colorBlueSpanSect8 {
+  color: #5e11d7;
+}
+@media (min-width: 720px) {
+  .containerImgBtnSect8 {
+    display: flex;
+  }
+  .containerTwoGrafits {
+    display: flex;
+  }
+}
+@media (min-width: 1280px) {
+  .containerTwoGrafits {
+    display: flex;
+  }
+  .containerImgBtnSect8Two {
+    display: block;
+  }
+}

@@ -1,0 +1,78 @@
+.imgCardMedia{
+    width: 100%;
+    border-radius: 20px;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.CardImgAcordion.css-r8yjns-MuiPaper-root-MuiCard-root{
+    max-width: 100%;
+    padding: 30px;
+    border-radius: 20px;
+}
+.MuiCardMedia-root.imgCardMedia.css-f7y7zu-MuiCardMedia-root{
+    height: auto;
+}
+.MuiAccordionDetails-root.css-15v22id-MuiAccordionDetails-root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SectionMain3AndroidTable{
+    display: block;
+}
+.SectionMain3Destock{
+    display: none;
+}
+@media (min-width:720px) {
+    .CardImgAcordion.MuiCard-root.MuiPaper-elevation.MuiPaper-elevation1.MuiPaper-root.MuiPaper-rounded.css-r8yjns-MuiPaper-root-MuiCard-root{
+        max-width: 100%;
+        height: 100%;
+    }
+}
+@media (min-width:1280px) {
+    .ConponentCardRenderSect3{
+        display: flex;
+        text-align: left;
+    }.containerDivCardRenderImg{
+        width: 70%;
+    }
+    .containerDivCardRenderText{
+        width: 30%;
+    }
+    .SectionMain3AndroidTable{
+        display: none;
+    }
+    .SectionMain3Destock{
+        display: block;
+    }
+    /* div de la targeta */
+    .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.css-op8w9f-MuiPaper-root-MuiCard-root{
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    /* lista */
+    ul.MuiList-padding.MuiList-root.SectionMain3List.css-h4y409-MuiList-root{
+        flex-direction: column;
+        padding: 10px;
+        background-color:#F4F4F4;
+       
+    }
+    /* personalizacion del boton de la lista */
+    .MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters.MuiListItemButton-root.MuiListItemButton-gutters.SectionMain3BtnList.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root{
+        width: 100%;
+        border-radius: 20px;
+        background-color: #D3D3D3;
+    
+    }
+    /* hover de los botones de la lista */
+    .MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters.MuiListItemButton-root.MuiListItemButton-gutters.SectionMain3BtnList.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root:hover
+    {
+        background-color: #7423CA;
+        color: white;
+    }
+    
+    /* quitar el paddin de la lista hueco blanco */
+    ul.MuiList-root.MuiList-padding.SectionMain3List.css-h4y409-MuiList-root{
+        padding-top: 0px;
+    }
+ 
+
+}

@@ -1,0 +1,29 @@
+.titleNuestraAppPhone{
+    font-weight: bold;       
+}
+.containerTargeticasSectMain3{
+    display: none;
+}
+
+@media (min-width:1280px) {
+    .containerPhonesSectMain3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .divPhoneNuestraApp{
+        margin-bottom:30px;
+      
+    }
+    .titleNuestraAppPhone{
+        font-size: 17px;
+    }
+    .containerTargeticasSectMain3{
+    display: flex;
+    justify-content: space-between;
+    }
+ 
+}
+
+
+
