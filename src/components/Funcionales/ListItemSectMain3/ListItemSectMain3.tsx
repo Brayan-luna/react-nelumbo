@@ -7,8 +7,8 @@ import {
 interface props {
   title: string;
   icon: any;
-  state: any;
   setState: any;
+  setRender: any;
 }
 import imgOne from "../../../assets/imgAcordion.jpg";
 const cardInfo = [
@@ -60,9 +60,11 @@ export default function ListItemSectMain3({
   title,
   icon,
   setState,
+  setRender
 }: props) {
   const btnRef = useRef<any>(null);
   const myComponetRender = () => {
+    setRender(true)
     setState(
       cardInfo.map((item: any) => {
         if (item.title == btnRef.current.innerText) {
